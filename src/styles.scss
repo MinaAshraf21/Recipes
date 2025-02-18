@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+* {
+  font-family: cursive;
+}
+@font-face {
+  font-family: pacifico;
+  src: url(./../public/Pacifico-Regular.ttf);
+}
+h1 {
+  font-family: pacifico;
+}
+footer {
+  z-index: 555;
+  width: 100%;
+}
